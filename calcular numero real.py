@@ -11,5 +11,10 @@ def calculoB(number1, number3):
 def calculoC(number3):
     return  (number3**3)
 
-resultado = calculoC(number3)
-print(resultado)
+
+resultadoA = calculoA(number1, number2)
+resultadoB = calculoB(number1, number3)
+resultadoC = calculoC(number3)
+print(f"o resultado A é {resultadoA}")
+print(f"o resultado B é {resultadoB}")
+print(f"o resultado C é {resultadoC}")
